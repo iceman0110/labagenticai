@@ -6,8 +6,8 @@ import re
 from google import genai  # Correct import
 
 # Initialize Gemini API (replace with your actual API key in st.secrets)
-
-api_key = st.secrets["AIzaSyD4eIgapmq5brCvdFb99JGidI65qrItUqI"]
+gemini_api"AIzaSyD4eIgapmq5brCvdFb99JGidI65qrItUqI"
+api_key = st.secrets["gemini_api"]
 client = genai.Client(api_key=api_key) # Use st.secrets
 
 # --- Part 1: Schema Upload and SQL Generation ---
